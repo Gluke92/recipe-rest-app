@@ -1,21 +1,27 @@
-* {
-    margin: 0px;
-    padding: 0px;
+/* Import Google Fonts*/
+@import url('<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">');
+
+.form-div {
+    margin: 50px auto 50px;
+    paddding: 25px 15px 10px 15px;
+    border: 1px solid #80ced7;
+    border-radius: 5px;
+    font-size:1.1em;
+    font-family: 'Lora', serif
 }
 
-body {
-    font-size: 120px;
-    background: #F8F8FF;
+.form-control:focus {
+    box-shadow: none;
 }
 
-.header {
-    width: 30%;
-    margin: 50px auto 0px;
-    color: white;
-    background: #5f9EA0;
-    text-align: center;
-    border: 1px solid #80C4DE;
-    border-bottom: none;
-    border-radius: 10px 10px 0px 0px;
-    padding: 20px;
+form p {
+    font-size: .89em;
+}
+
+.form-div.login {
+    margin-top: 100px;
+}
+
+.logout {
+    color: red;
 }
