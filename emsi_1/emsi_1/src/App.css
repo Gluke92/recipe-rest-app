@@ -1,0 +1,41 @@
+html {
+  padding: 10px 10px;
+  margin: 5vw 5vh;
+}
+
+.App {
+    text-align: center;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}
+
+.block {
+  border: 1px solid grey;
+  grid-template-areas: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.green {
+  color: green;
+}
+
+
+
+table,
+td, 
+th {
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  padding: 8px;
+  margin: 5px;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+
+
